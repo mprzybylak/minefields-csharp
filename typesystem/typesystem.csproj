@@ -33,6 +33,9 @@
     <Compile Include="UserDefinedStructs.cs" />
     <Compile Include="UserDefinedEnums.cs" />
     <Compile Include="ReferenceTypes.cs" />
+    <Compile Include="Properties.cs" />
+    <Compile Include="PropertiesAccessModifiers.cs" />
+    <Compile Include="PropertiesAndInheritance.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

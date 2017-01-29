@@ -1,4 +1,5 @@
 ﻿using System;
+using Typesystem.ReferenceTypes;
 using Typesystem.ValueTypes;
 
 namespace typesystem
@@ -15,6 +16,7 @@ namespace typesystem
 
 			// reference types
 			ReferenceTypes.example();
+			Properties.example();
 		}
 	}
 }
