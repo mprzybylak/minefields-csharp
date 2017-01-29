@@ -17,6 +17,7 @@ namespace typesystem
 			// reference types
 			ReferenceTypes.example();
 			Properties.example();
+			Indexers.example();
 		}
 	}
 }

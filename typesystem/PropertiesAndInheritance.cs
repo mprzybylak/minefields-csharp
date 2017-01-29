@@ -1,5 +1,5 @@
 ﻿using System;
-namespace typesystem
+namespace Typesystem.ReferenceTypes
 {
 	public abstract class PropertiesAndInheritance
 	{
