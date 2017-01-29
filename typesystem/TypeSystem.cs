@@ -25,11 +25,11 @@ namespace typesystem
 		public static void Main()
 		{
 			ValueTypesInitialization.example();
+			ValueTypeAliases.example();
 
 
 
-
-
+			/*
 			System.Console.WriteLine("Type system");
 
 			// value type: alias
@@ -106,6 +106,7 @@ namespace typesystem
 			int iaaaa = ic[1, 2, 3];
 
 			bool result = 2 == null;
+			*/
 		}
 
 
