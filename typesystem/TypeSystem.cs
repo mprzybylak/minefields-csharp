@@ -10,6 +10,7 @@ namespace typesystem
 		{
 			ValueTypesInitialization.example();
 			ValueTypeAliases.example();
+			UserDefinedStructs.example();
 		}
 	}
 }

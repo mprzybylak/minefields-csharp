@@ -30,6 +30,7 @@
     <Compile Include="TypeSystem.cs" />
     <Compile Include="ValueTypesInitialization.cs" />
     <Compile Include="ValueTypeAliases.cs" />
+    <Compile Include="UserDefinedStructs.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
