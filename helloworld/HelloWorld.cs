@@ -12,6 +12,10 @@ namespace pl.mprzybylak.miefields.csharp.helloworld
 		static void Main()
 		{
 			System.Console.WriteLine("Hello, World!");
+
+
+
+			var test = 12;
 		}
 
 	}
