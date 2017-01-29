@@ -32,6 +32,7 @@
     <Compile Include="ValueTypeAliases.cs" />
     <Compile Include="UserDefinedStructs.cs" />
     <Compile Include="UserDefinedEnums.cs" />
+    <Compile Include="ReferenceTypes.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
