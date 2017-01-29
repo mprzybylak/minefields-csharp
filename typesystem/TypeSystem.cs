@@ -94,6 +94,7 @@ namespace typesystem
 			o = i;
 			object oo = 1;
 
+			var strangeArray = Array.CreateInstance(typeof(Object), new int[] { 2 }, new int[] { 9 });
 
 			IndexedClass ic = new IndexedClass();
 			int iaaaa = ic[1, 2, 3];
@@ -105,6 +106,11 @@ namespace typesystem
 
 		public static void methodCall(int a, int b, int c, int d)
 		{
+		}
+
+		public static void sampleGeneric<T>() 
+		{
+			T t = default(T);
 		}
 
 		public static void passByReference<T>(ref T a, T b)
