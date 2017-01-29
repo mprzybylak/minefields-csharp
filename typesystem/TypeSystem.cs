@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Typesystem.ValueTypes;
 
 namespace A
 {
@@ -24,6 +24,12 @@ namespace typesystem
 
 		public static void Main()
 		{
+			ValueTypesInitialization.example();
+
+
+
+
+
 			System.Console.WriteLine("Type system");
 
 			// value type: alias
