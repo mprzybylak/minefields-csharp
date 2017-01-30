@@ -18,6 +18,7 @@ namespace typesystem
 			ReferenceTypes.example();
 			Properties.example();
 			Indexers.example();
+			NamedAndOptionalParameters.example();
 		}
 	}
 }

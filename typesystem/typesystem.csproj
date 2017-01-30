@@ -37,6 +37,7 @@
     <Compile Include="PropertiesAccessModifiers.cs" />
     <Compile Include="PropertiesAndInheritance.cs" />
     <Compile Include="Indexers.cs" />
+    <Compile Include="NamedAndOptionalParameters.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
