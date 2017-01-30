@@ -19,6 +19,7 @@ namespace typesystem
 			Properties.example();
 			Indexers.example();
 			NamedAndOptionalParameters.example();
+			ExtensionMethods.example();
 		}
 	}
 }
