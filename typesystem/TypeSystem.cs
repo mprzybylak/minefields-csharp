@@ -20,6 +20,8 @@ namespace typesystem
 			Indexers.example();
 			NamedAndOptionalParameters.example();
 			ExtensionMethods.example();
+			GenericTypes.example();
+
 		}
 	}
 }
