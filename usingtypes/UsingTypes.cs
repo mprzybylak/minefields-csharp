@@ -9,6 +9,7 @@ namespace usingtypes
 		{
 			Conversions.example();
 			Casting.example();
+			Autoboxing.example();
 		}
 	}
 }
