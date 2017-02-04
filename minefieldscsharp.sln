@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloworld", "helloworld\he
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "typesystem", "typesystem\typesystem.csproj", "{96D95312-DBFE-44C2-BE76-D3C142C11AA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usingtypes", "usingtypes\usingtypes.csproj", "{BBFA74DA-9A81-4CD5-AC77-20BDA109A6A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +21,9 @@ Global
 		{96D95312-DBFE-44C2-BE76-D3C142C11AA0}.Debug|x86.Build.0 = Debug|x86
 		{96D95312-DBFE-44C2-BE76-D3C142C11AA0}.Release|x86.ActiveCfg = Release|x86
 		{96D95312-DBFE-44C2-BE76-D3C142C11AA0}.Release|x86.Build.0 = Release|x86
+		{BBFA74DA-9A81-4CD5-AC77-20BDA109A6A9}.Debug|x86.ActiveCfg = Debug|x86
+		{BBFA74DA-9A81-4CD5-AC77-20BDA109A6A9}.Debug|x86.Build.0 = Debug|x86
+		{BBFA74DA-9A81-4CD5-AC77-20BDA109A6A9}.Release|x86.ActiveCfg = Release|x86
+		{BBFA74DA-9A81-4CD5-AC77-20BDA109A6A9}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
