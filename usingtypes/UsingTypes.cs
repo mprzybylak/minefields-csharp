@@ -8,6 +8,7 @@ namespace usingtypes
 		public static void Main()
 		{
 			Conversions.example();
+			Casting.example();
 		}
 	}
 }

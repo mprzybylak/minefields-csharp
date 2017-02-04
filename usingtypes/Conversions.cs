@@ -68,18 +68,12 @@ namespace UsingTypes.Conversions
 
 		public static void handlingOverflows()
 		{
-
 			unchecked
 			{
-				Console.WriteLine(" !!!! {0} ! {1} ! {2} !!!! ", (int.MaxValue + 1) == int.MinValue, int.MinValue, (int.MaxValue + 1));
-			}
+				int integerValue = int.MaxValue;
+				integerValue = integerValue + 1;
+				Console.WriteLine("Integer with value bigger than max value will be truncated = {0} (equal to int.MinValue)", integerValue);
 
-			int integerValue = int.MaxValue;
-			integerValue = integerValue + 1;
-			Console.WriteLine("Integer with value bigger than max value will be truncated = {0} (equal to int.MinValue)", integerValue);
-
-			unchecked
-			{
 				double doubleValue = double.MaxValue;
 
 				/* 

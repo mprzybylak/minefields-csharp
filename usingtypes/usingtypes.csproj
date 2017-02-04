@@ -38,6 +38,7 @@
   <ItemGroup>
     <Compile Include="UsingTypes.cs" />
     <Compile Include="Conversions.cs" />
+    <Compile Include="Casting.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
