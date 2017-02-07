@@ -1,5 +1,5 @@
 ﻿using System;
-namespace usingtypes
+namespace UsingTypes.Conversions
 {
 	public static class Autoboxing
 	{

@@ -40,6 +40,10 @@
     <Compile Include="Conversions.cs" />
     <Compile Include="Casting.cs" />
     <Compile Include="Autoboxing.cs" />
+    <Compile Include="ConversionWays.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
