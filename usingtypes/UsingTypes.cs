@@ -1,5 +1,6 @@
 ﻿using System;
 using UsingTypes.Conversions;
+using UsingTypes.StringType;
 
 namespace usingtypes
 {
@@ -11,6 +12,7 @@ namespace usingtypes
 			Casting.example();
 			Autoboxing.example();
 			ConversionWays.example();
+			StringType.example();
 		}
 	}
 }
