@@ -64,7 +64,8 @@ namespace UsingTypes.Conversions
 
 			// dates can parse many date formats
 			DateTime date = DateTime.Parse("2017.02.06");
-			Console.WriteLine("Parsed date {0}", date);
+			DateTime date2 = DateTime.Parse("2017/02/06");
+			Console.WriteLine("Parsed dates {0}, {1}", date, date2);
 		}
 
 		private static void systemConvert()

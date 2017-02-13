@@ -41,6 +41,7 @@
     <Compile Include="Casting.cs" />
     <Compile Include="Autoboxing.cs" />
     <Compile Include="ConversionWays.cs" />
+    <Compile Include="StringType.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
