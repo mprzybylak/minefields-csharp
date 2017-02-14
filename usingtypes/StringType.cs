@@ -11,6 +11,7 @@ namespace UsingTypes.StringType
 			stringConstructors();
 			usefulPropertiesAndFields();
 			usefulStaticMethods();
+			usefulMethods();
 			Console.WriteLine();
 		}
 
@@ -87,6 +88,37 @@ namespace UsingTypes.StringType
 			Console.WriteLine("string.Equals compares strings: {0} and {1} == {2}", first, second, string.Equals(first, second));
 			Console.WriteLine("string.IsNullOrEmpty: {0}", string.IsNullOrEmpty(first));
 			Console.WriteLine("string.isNullOrWhiteSpace: {0}", string.IsNullOrWhiteSpace(first));
+
+		}
+
+		private static void usefulMethods()
+		{
+			string first = "asada";
+			string second = "rryryr";
+
+			Console.WriteLine("CompareTo returns -1, 0 or 1 - so if string is 'lower', 'equal' or 'higher' than passed one: {0}", first.CompareTo(second));
+			Console.WriteLine("Contains returns true if string contains passed substring: {0}", first.Contains(second));
+			Console.WriteLine("EndsWIth checks if string ends with given substring: {0}", first.EndsWith(second));
+			Console.WriteLine("IndexOf returns index of first occurence of pased char: {0}", first.IndexOf('a'));
+			Console.WriteLine("IndexOfAny returns index of first occurence of one of passed chars: {0}", first.IndexOfAny(new char[] { 's', 'd' }));
+			Console.WriteLine("Insert inserts substring into string at given index: {0}", first.Insert(2, second));
+			Console.WriteLine("LastIndexOf works like IndexOf but checks for last occurence: {0}", first.LastIndexOf('a'));
+			Console.WriteLine("LastIndexOfAny works like IndexOfAny but checks for last occurence: {0}", first.LastIndexOfAny(new char[] { 's', 'd' }));
+			Console.WriteLine("PadLeft adds given amount of spaces before string: '{0}'", first.PadLeft(3));
+			Console.WriteLine("PadRight adds given anount of spaces after string:D '{0}'", first.PadRight(3));
+			Console.WriteLine("Remove removes substring at given index", first.Remove(2));
+			Console.WriteLine("Replace replaces some character to other", first.Replace('a', 'z'));
+			Console.WriteLine("StartsWith checks if strings starts with given substring: {0}", first.StartsWith("as"));
+			Console.WriteLine("Substring returns substring within given indexes: {0}", first.Substring(2,2));
+			Console.WriteLine("ToLower converts all characters to lower cases: {0}", first.ToLower());
+			Console.WriteLine("ToUpper converts all characters to upper cases: {0}", first.ToUpper());
+			Console.WriteLine("Trim removes leading and trailing spaces: {0}", first.PadLeft(10).PadRight(10).Trim());
+
+			Console.WriteLine("Split, splits string with given delimeter");
+			foreach (string s in first.Split('a'))
+			{
+				Console.WriteLine(s);
+			}
 
 		}
 	}
