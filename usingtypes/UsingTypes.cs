@@ -13,6 +13,7 @@ namespace usingtypes
 			Autoboxing.example();
 			ConversionWays.example();
 			StringType.example();
+			StringBuilderType.example();
 		}
 	}
 }

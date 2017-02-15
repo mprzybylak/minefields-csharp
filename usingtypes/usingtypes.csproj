@@ -42,6 +42,7 @@
     <Compile Include="Autoboxing.cs" />
     <Compile Include="ConversionWays.cs" />
     <Compile Include="StringType.cs" />
+    <Compile Include="StringBuilderType.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
