@@ -43,6 +43,7 @@
     <Compile Include="ConversionWays.cs" />
     <Compile Include="StringType.cs" />
     <Compile Include="StringBuilderType.cs" />
+    <Compile Include="StringWriterType.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />

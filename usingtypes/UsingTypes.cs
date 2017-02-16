@@ -14,6 +14,7 @@ namespace usingtypes
 			ConversionWays.example();
 			StringType.example();
 			StringBuilderType.example();
+			StringWriterType.example();
 		}
 	}
 }
