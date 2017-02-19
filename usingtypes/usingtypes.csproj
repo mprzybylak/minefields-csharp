@@ -45,6 +45,7 @@
     <Compile Include="StringBuilderType.cs" />
     <Compile Include="StringWriterType.cs" />
     <Compile Include="StringReaderType.cs" />
+    <Compile Include="StringFormatting.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
