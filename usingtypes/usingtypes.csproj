@@ -46,6 +46,7 @@
     <Compile Include="StringWriterType.cs" />
     <Compile Include="StringReaderType.cs" />
     <Compile Include="StringFormatting.cs" />
+    <Compile Include="IFormatableExmample.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
