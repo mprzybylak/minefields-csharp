@@ -29,6 +29,7 @@
   <ItemGroup>
     <Compile Include="ClassHierarchy.cs" />
     <Compile Include="Inheritance.cs" />
+    <Compile Include="Polymorphism.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
