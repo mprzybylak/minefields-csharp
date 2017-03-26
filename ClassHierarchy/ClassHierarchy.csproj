@@ -32,6 +32,7 @@
     <Compile Include="Polymorphism.cs" />
     <Compile Include="Constructors.cs" />
     <Compile Include="Destructors.cs" />
+    <Compile Include="Interfaces.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
