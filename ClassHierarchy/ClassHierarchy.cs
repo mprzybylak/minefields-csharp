@@ -10,6 +10,7 @@ namespace ClassHierarchy
 			Interfaces.example();
 			Constructors.example();
 			Destructors.examples();
+			UsefulInterfaces.example();
 		}
 	}
 

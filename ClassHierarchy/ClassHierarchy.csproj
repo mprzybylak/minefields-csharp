@@ -33,6 +33,7 @@
     <Compile Include="Constructors.cs" />
     <Compile Include="Destructors.cs" />
     <Compile Include="Interfaces.cs" />
+    <Compile Include="UsefulInterfaces.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
