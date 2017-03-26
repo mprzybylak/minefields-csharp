@@ -25,6 +25,14 @@ namespace usingtypes
 		}
 	}
 
+	public class A : IFormattable
+	{
+		string IFormattable.ToString(string format, IFormatProvider formatProvider)
+		{
+			throw new NotImplementedException();
+		}
+	}
+
 	public class Length : IFormattable
 	{
 		private double value;

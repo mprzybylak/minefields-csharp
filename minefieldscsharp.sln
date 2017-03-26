@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "typesystem", "typesystem\ty
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "usingtypes", "usingtypes\usingtypes.csproj", "{BBFA74DA-9A81-4CD5-AC77-20BDA109A6A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassHierarchy", "ClassHierarchy\ClassHierarchy.csproj", "{0C0A1233-1A24-430A-9E76-3A435F4CB156}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -25,5 +27,9 @@ Global
 		{BBFA74DA-9A81-4CD5-AC77-20BDA109A6A9}.Debug|x86.Build.0 = Debug|x86
 		{BBFA74DA-9A81-4CD5-AC77-20BDA109A6A9}.Release|x86.ActiveCfg = Release|x86
 		{BBFA74DA-9A81-4CD5-AC77-20BDA109A6A9}.Release|x86.Build.0 = Release|x86
+		{0C0A1233-1A24-430A-9E76-3A435F4CB156}.Debug|x86.ActiveCfg = Debug|x86
+		{0C0A1233-1A24-430A-9E76-3A435F4CB156}.Debug|x86.Build.0 = Debug|x86
+		{0C0A1233-1A24-430A-9E76-3A435F4CB156}.Release|x86.ActiveCfg = Release|x86
+		{0C0A1233-1A24-430A-9E76-3A435F4CB156}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
