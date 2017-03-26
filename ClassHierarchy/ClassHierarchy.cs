@@ -7,6 +7,8 @@ namespace ClassHierarchy
 		{
 			Inheritance.example();
 			Polymorphism.example();
+			Constructors.example();
+			Destructors.examples();
 		}
 	}
 

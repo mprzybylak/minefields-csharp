@@ -30,6 +30,8 @@
     <Compile Include="ClassHierarchy.cs" />
     <Compile Include="Inheritance.cs" />
     <Compile Include="Polymorphism.cs" />
+    <Compile Include="Constructors.cs" />
+    <Compile Include="Destructors.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
