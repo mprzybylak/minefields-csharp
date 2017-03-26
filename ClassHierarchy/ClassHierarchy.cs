@@ -5,7 +5,7 @@ namespace ClassHierarchy
 	{
 		public static void Main(string[] args)
 		{
-
+			Inheritance.example();
 		}
 	}
 
